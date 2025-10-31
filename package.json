@@ -4,9 +4,6 @@
   "main": "server/ingest.js",
   "scripts": {
     "start": "node server.js",
-    "start:ingest": "node server/ingest.js",
-    "start:reader": "node server/reader.js",
-    "create:token": "node server/token.js",
     "compile:hardhat": "npx hardhat compile",
     "compile:bytecode": "node scripts/compile_bytecode.js",
     "build:bytecode": "npm run compile:hardhat && npm run compile:bytecode",
