@@ -20,6 +20,7 @@
   "dependencies": {
     "@hashgraph/sdk": "^2.76.0",
     "csv-parse": "^6.1.0",
+    "csv-parser": "^3.2.0",
     "dotenv": "^17.2.3",
     "express": "^5.1.0",
     "pg": "^8.16.3",
@@ -27,9 +28,9 @@
     "uuid": "^9.0.0"
   },
   "devDependencies": {
-    "hardhat": "^2.12.7",
     "@nomicfoundation/hardhat-toolbox": "^3.0.0",
     "ethers": "^6.14.0",
+    "hardhat": "^2.12.7",
     "solidity-coverage": "^0.8.1"
   }
 }
